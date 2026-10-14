@@ -1,0 +1,51 @@
+{
+    "name": "@nera-static/starter-blank",
+    "version": "1.0.0",
+    "description": "The smallest Nera starter: a home page, imprint and privacy placeholders, and one accessible layout. No theme, no plugins, no JavaScript.",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint .",
+        "test": "vitest",
+        "prepare": "husky"
+    },
+    "files": [
+        "config",
+        "pages",
+        "theme",
+        "CHANGELOG.md"
+    ],
+    "keywords": [
+        "nera",
+        "nera-starter",
+        "static-site-generator",
+        "starter"
+    ],
+    "nera": {
+        "starter": {
+            "label": "Blank",
+            "description": "The smallest Nera starter: a home page, imprint and privacy placeholders, and one accessible layout. No theme, no plugins, no JavaScript."
+        }
+    },
+    "author": "Michael Becker",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/seebaermichi/nera-starter-blank.git"
+    },
+    "bugs": {
+        "url": "https://github.com/seebaermichi/nera-starter-blank/issues"
+    },
+    "homepage": "https://github.com/seebaermichi/nera-starter-blank#readme",
+    "publishConfig": {
+        "access": "public"
+    },
+    "engines": {
+        "node": "^20.19.0 || >=22.12.0"
+    },
+    "devDependencies": {
+        "@nera-static/nera": "^1.11.0",
+        "eslint": "^10.12.0",
+        "husky": "^9.1.7",
+        "vitest": "^5.0.3"
+    }
+}
