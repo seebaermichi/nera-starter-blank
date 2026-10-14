@@ -23,8 +23,10 @@ one (`nera-starter-blog`, `nera-starter-business`) and swap the names.
   site (starter wins); `dependencies` are merged into the site's (the site's own
   `@nera-static/nera` entry is kept); the README is printed after scaffolding, not
   copied. Anything else in the package never reaches a site — do not rely on it.
-- **The blank starter uses no theme** (no `theme:` in `config/app.yaml`), so the
-  scaffold's default views stay in place.
+- **The blank starter uses no theme** (no `theme:` in `config/app.yaml`). It ships
+  its own `theme/views/` over the scaffold's (skip link, `main#main`, footer linking
+  the imprint and privacy placeholders) so a fresh site checks clean; both views
+  keep the `nera:scaffold-default` marker line.
 - **Semver + `CHANGELOG.md` in the same commit as the change** (Keep a Changelog,
   four-space bullets, `**BREAKING**:` prefix). Bump with
   `npm version <bump> --no-git-tag-version`. A starter has no update path (the site
@@ -45,7 +47,8 @@ one (`nera-starter-blog`, `nera-starter-business`) and swap the names.
   edit line by line (`name`, `lang`) and a `translations:` entry for its language.
 - No `postinstall` or other lifecycle scripts (the CLI packs with
   `--ignore-scripts`, and a starter must not need them).
-- `files` in `package.json` is limited to what a site receives plus `README.md`.
+- `files` in `package.json` is limited to what a site receives plus `CHANGELOG.md`
+  (`README.md`, `LICENSE` and `package.json` ship anyway).
 
 ## UI / template rules
 
