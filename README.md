@@ -30,16 +30,6 @@ gets its own `translations:` entry to translate.
   linking the imprint and privacy pages
 - `theme/views/pages/default.pug` — the page view
 
-## Next steps
-
-1. Replace `pages/imprint.md` and `pages/privacy.md` with your own legal texts.
-2. Run `npm run dev` to preview with live reload.
-3. Add plugins from the
-   [plugin catalog](https://github.com/seebaermichi/nera/blob/main/PLUGINS.md),
-   or a theme later with one `theme:` line in `config/app.yaml`.
-
-After `nera new` the files are yours: a starter has no update path.
-
 ## Requirements
 
 - `@nera-static/nera` 1.11.0 or later
@@ -48,3 +38,12 @@ After `nera new` the files are yours: a starter has no update path.
 ## License
 
 MIT
+
+## Next steps
+
+After `nera new` the files are yours: a starter has no update path.
+
+1. Replace `pages/imprint.md` and `pages/privacy.md` with your own legal texts.
+2. Add plugins from the
+   [plugin catalog](https://github.com/seebaermichi/nera/blob/main/PLUGINS.md),
+   or a theme later with one `theme:` line in `config/app.yaml`.

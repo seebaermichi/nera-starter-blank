@@ -1,6 +1,6 @@
 {
     "name": "@nera-static/starter-blank",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "The smallest Nera starter: a home page, imprint and privacy placeholders, and one accessible layout. No theme, no plugins, no JavaScript.",
     "type": "module",
     "scripts": {
