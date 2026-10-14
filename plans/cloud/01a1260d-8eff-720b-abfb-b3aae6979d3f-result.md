@@ -183,5 +183,5 @@ Done 2026-10-14 (nera-starter-blank 1.0.0, not yet published): `@nera-static/sta
 
 ## Not verified
 
-- Push: refused with 403 ("seebaermichi/nera-starter-blank is not in this session's authorized repository set"); see the chat. Everything else was checked online (`npm view`, `starter.js`, sitemap files).
+- none for the network: `npm view`, `starter.js` and the sitemap files were checked online. The first push attempts got a 403 until the repo was attached to the session; the branch is pushed now.
 - Node 20 run of the test suite (only Node 22.22.0 in this container).
