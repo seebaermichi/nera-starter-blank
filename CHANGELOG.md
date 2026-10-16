@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-10-16
+
+### Changed
+
+-   `engines.node` is `>=22.12.0`, documenting the real floor: on Node 20 the bundled npm 10.8 crashes while installing a fresh Nera site (`vite` 8's optional peers), and npm 10.9 ships with Node 22.12.
+-   README: "Next steps" is renamed "First steps", the one section `nera new --starter blank` prints. Its plugin catalog link is a plain URL to https://nera.js.org/plugins/, readable in a terminal.
+
 ## [1.0.1] - 2026-10-14
 
 ### Changed

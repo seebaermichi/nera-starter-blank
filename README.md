@@ -33,17 +33,16 @@ gets its own `translations:` entry to translate.
 ## Requirements
 
 - `@nera-static/nera` 1.11.0 or later
-- Node.js `^20.19.0 || >=22.12.0`
+- Node.js `>=22.12.0` (its bundled npm 10.9 or later)
 
 ## License
 
 MIT
 
-## Next steps
+## First steps
 
 After `nera new` the files are yours: a starter has no update path.
 
 1. Replace `pages/imprint.md` and `pages/privacy.md` with your own legal texts.
-2. Add plugins from the
-   [plugin catalog](https://github.com/seebaermichi/nera/blob/main/PLUGINS.md),
+2. Add plugins from the plugin catalog at https://nera.js.org/plugins/,
    or a theme later with one `theme:` line in `config/app.yaml`.
